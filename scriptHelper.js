@@ -49,7 +49,7 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
 
     document.getElementById("pilotStatus").innerHTML = `Pilot ${pilot} is ready for launch`;
     document.getElementById("copilotStatus").innerHTML = `Co-pilot ${copilot} is ready for launch`;
-    list.style.visibility = "visible";
+    list.style.visibility = "visible"; 
 
     if (Number(fuelLevel) < 10000 && Number(cargoMass) <= 10000) {
          document.getElementById("fuelStatus").innerHTML = "Fuel level too low for launch";
